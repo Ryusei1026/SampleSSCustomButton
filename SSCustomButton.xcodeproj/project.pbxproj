@@ -15,6 +15,9 @@
 		1BCE8D772484DC0900A6DBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCE8D752484DC0900A6DBB2 /* LaunchScreen.storyboard */; };
 		1BCE8D822484DC0900A6DBB2 /* SSCustomButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE8D812484DC0900A6DBB2 /* SSCustomButtonTests.swift */; };
 		1BCE8D8D2484DC0A00A6DBB2 /* SSCustomButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE8D8C2484DC0A00A6DBB2 /* SSCustomButtonUITests.swift */; };
+		4BAF9D567BA3BCCAD8868719 /* Pods_SSCustomButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F3A851AB2C19BF4ACA33A6 /* Pods_SSCustomButton.framework */; };
+		87BFFF2F75C9C573F89762CA /* Pods_SSCustomButtonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196B1753177F8D5D1A52696D /* Pods_SSCustomButtonTests.framework */; };
+		B0996C989208FE8508559A4D /* Pods_SSCustomButton_SSCustomButtonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C3860D781F00685B2C9456 /* Pods_SSCustomButton_SSCustomButtonUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D684C6E6752A1EA4E3F690C /* Pods-SSCustomButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSCustomButton.debug.xcconfig"; path = "Target Support Files/Pods-SSCustomButton/Pods-SSCustomButton.debug.xcconfig"; sourceTree = "<group>"; };
+		17F3A851AB2C19BF4ACA33A6 /* Pods_SSCustomButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSCustomButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		196B1753177F8D5D1A52696D /* Pods_SSCustomButtonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSCustomButtonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCE8D672484DC0800A6DBB2 /* SSCustomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSCustomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCE8D6A2484DC0800A6DBB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCE8D6C2484DC0800A6DBB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		1BCE8D882484DC0900A6DBB2 /* SSCustomButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSCustomButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCE8D8C2484DC0A00A6DBB2 /* SSCustomButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSCustomButtonUITests.swift; sourceTree = "<group>"; };
 		1BCE8D8E2484DC0A00A6DBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED4E58399A7D5C827B5BBAF /* Pods-SSCustomButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSCustomButtonTests.debug.xcconfig"; path = "Target Support Files/Pods-SSCustomButtonTests/Pods-SSCustomButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		479133901ABD6CDC5825ABE5 /* Pods-SSCustomButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSCustomButtonTests.release.xcconfig"; path = "Target Support Files/Pods-SSCustomButtonTests/Pods-SSCustomButtonTests.release.xcconfig"; sourceTree = "<group>"; };
+		65C3860D781F00685B2C9456 /* Pods_SSCustomButton_SSCustomButtonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSCustomButton_SSCustomButtonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		719F2686FB4088CE80423CE2 /* Pods-SSCustomButton-SSCustomButtonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSCustomButton-SSCustomButtonUITests.release.xcconfig"; path = "Target Support Files/Pods-SSCustomButton-SSCustomButtonUITests/Pods-SSCustomButton-SSCustomButtonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72FCCCD12EC17A0470A2C7B5 /* Pods-SSCustomButton-SSCustomButtonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSCustomButton-SSCustomButtonUITests.debug.xcconfig"; path = "Target Support Files/Pods-SSCustomButton-SSCustomButtonUITests/Pods-SSCustomButton-SSCustomButtonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED58C79A4DC3D5FE99CD637 /* Pods-SSCustomButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSCustomButton.release.xcconfig"; path = "Target Support Files/Pods-SSCustomButton/Pods-SSCustomButton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BAF9D567BA3BCCAD8868719 /* Pods_SSCustomButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87BFFF2F75C9C573F89762CA /* Pods_SSCustomButtonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0996C989208FE8508559A4D /* Pods_SSCustomButton_SSCustomButtonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0345E61A3EE8587ACA5B1DCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17F3A851AB2C19BF4ACA33A6 /* Pods_SSCustomButton.framework */,
+				65C3860D781F00685B2C9456 /* Pods_SSCustomButton_SSCustomButtonUITests.framework */,
+				196B1753177F8D5D1A52696D /* Pods_SSCustomButtonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1BCE8D5E2484DC0800A6DBB2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				1BCE8D802484DC0900A6DBB2 /* SSCustomButtonTests */,
 				1BCE8D8B2484DC0A00A6DBB2 /* SSCustomButtonUITests */,
 				1BCE8D682484DC0800A6DBB2 /* Products */,
+				E298A0B67F5B851159CDCE24 /* Pods */,
+				0345E61A3EE8587ACA5B1DCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +163,20 @@
 			path = SSCustomButtonUITests;
 			sourceTree = "<group>";
 		};
+		E298A0B67F5B851159CDCE24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D684C6E6752A1EA4E3F690C /* Pods-SSCustomButton.debug.xcconfig */,
+				7ED58C79A4DC3D5FE99CD637 /* Pods-SSCustomButton.release.xcconfig */,
+				72FCCCD12EC17A0470A2C7B5 /* Pods-SSCustomButton-SSCustomButtonUITests.debug.xcconfig */,
+				719F2686FB4088CE80423CE2 /* Pods-SSCustomButton-SSCustomButtonUITests.release.xcconfig */,
+				2ED4E58399A7D5C827B5BBAF /* Pods-SSCustomButtonTests.debug.xcconfig */,
+				479133901ABD6CDC5825ABE5 /* Pods-SSCustomButtonTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCE8D912484DC0A00A6DBB2 /* Build configuration list for PBXNativeTarget "SSCustomButton" */;
 			buildPhases = (
+				5FDA1FE0CB16E47FF7905601 /* [CP] Check Pods Manifest.lock */,
 				1BCE8D632484DC0800A6DBB2 /* Sources */,
 				1BCE8D642484DC0800A6DBB2 /* Frameworks */,
 				1BCE8D652484DC0800A6DBB2 /* Resources */,
+				9F1E764C65EC0A23D902F205 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCE8D942484DC0A00A6DBB2 /* Build configuration list for PBXNativeTarget "SSCustomButtonTests" */;
 			buildPhases = (
+				4AF03C86EF0610F3504C0E1D /* [CP] Check Pods Manifest.lock */,
 				1BCE8D792484DC0900A6DBB2 /* Sources */,
 				1BCE8D7A2484DC0900A6DBB2 /* Frameworks */,
 				1BCE8D7B2484DC0900A6DBB2 /* Resources */,
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCE8D972484DC0A00A6DBB2 /* Build configuration list for PBXNativeTarget "SSCustomButtonUITests" */;
 			buildPhases = (
+				F3EECB28C3F10917ACB9F876 /* [CP] Check Pods Manifest.lock */,
 				1BCE8D842484DC0900A6DBB2 /* Sources */,
 				1BCE8D852484DC0900A6DBB2 /* Frameworks */,
 				1BCE8D862484DC0900A6DBB2 /* Resources */,
+				78EDB09B6EB00D5A5A0CBC68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +307,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AF03C86EF0610F3504C0E1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSCustomButtonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FDA1FE0CB16E47FF7905601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSCustomButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78EDB09B6EB00D5A5A0CBC68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSCustomButton-SSCustomButtonUITests/Pods-SSCustomButton-SSCustomButtonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSCustomButton-SSCustomButtonUITests/Pods-SSCustomButton-SSCustomButtonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSCustomButton-SSCustomButtonUITests/Pods-SSCustomButton-SSCustomButtonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1E764C65EC0A23D902F205 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSCustomButton/Pods-SSCustomButton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSCustomButton/Pods-SSCustomButton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSCustomButton/Pods-SSCustomButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3EECB28C3F10917ACB9F876 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSCustomButton-SSCustomButtonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BCE8D632484DC0800A6DBB2 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		1BCE8D922484DC0A00A6DBB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D684C6E6752A1EA4E3F690C /* Pods-SSCustomButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +602,7 @@
 		};
 		1BCE8D932484DC0A00A6DBB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED58C79A4DC3D5FE99CD637 /* Pods-SSCustomButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +623,7 @@
 		};
 		1BCE8D952484DC0A00A6DBB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED4E58399A7D5C827B5BBAF /* Pods-SSCustomButtonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		1BCE8D962484DC0A00A6DBB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479133901ABD6CDC5825ABE5 /* Pods-SSCustomButtonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		1BCE8D982484DC0A00A6DBB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FCCCD12EC17A0470A2C7B5 /* Pods-SSCustomButton-SSCustomButtonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +690,7 @@
 		};
 		1BCE8D992484DC0A00A6DBB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719F2686FB4088CE80423CE2 /* Pods-SSCustomButton-SSCustomButtonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
